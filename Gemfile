@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", ">= 227", group: :jekyll_plugins
 
 group :test do
   gem "fastimage"
@@ -9,8 +9,8 @@ group :test do
   gem "octokit"
   gem "pry", require: false
   gem "rake"
-  gem "rubocop"
-  gem "rubocop-performance"
+  gem "rubocop", ">= 1.28.2"
+  gem "rubocop-performance", ">= 1.14.0"
   gem "safe_yaml"
 end
 
