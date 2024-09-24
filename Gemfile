@@ -15,5 +15,5 @@ group :test do
 end
 
 group :development do
-  gem "webrick"
+  gem "webrick", ">= 1.8.2"
 end
