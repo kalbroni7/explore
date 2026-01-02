@@ -4,7 +4,7 @@ gem "github-pages", group: :jekyll_plugins
 
 group :test do
   gem "fastimage"
-  gem "httparty"
+  gem "httparty", ">= 0.24.0"
   gem "minitest"
   gem "octokit"
   gem "pry", require: false
