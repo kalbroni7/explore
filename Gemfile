@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", ">= 227", group: :jekyll_plugins
 
 group :test do
   gem "fastimage"
   gem "httparty"
   gem "minitest"
-  gem "octokit"
+  gem "octokit", ">= 4.23.0"
   gem "pry", require: false
   gem "rake"
   gem "rubocop"
